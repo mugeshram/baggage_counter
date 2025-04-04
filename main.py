@@ -113,7 +113,7 @@ def readRow(line, characters):
     GPIO.output(line, GPIO.HIGH)
     return input_text
 
-# Endless loop by checking each row
+
 
 def get_char():
     input_text = ""
@@ -133,7 +133,7 @@ def get_char():
         
 
             
-        time.sleep(0.2) # adjust this per your own setup
+        time.sleep(0.2) 
     return input_text    
  
 def get_number():
